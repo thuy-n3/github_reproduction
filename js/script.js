@@ -15,15 +15,15 @@ catch (e) {
 	var token = ''
 }
 
-console.log(name)
+// console.log(name)
 
-console.log('token>>>' + token)
+// console.log('token>>>' + token)
 
-var url = 'https://api.github.com/users/thuy-n3/repos'
+// var url = 'https://api.github.com/users/thuy-n3/repos'
 
-var params = {
-	access_token: token
-}
+// var params = {
+// 	access_token: token
+// }
 
 
 //===========================================genParamFunction
@@ -62,7 +62,6 @@ var repoContainer = document.querySelector("#repoContainer")
 
 
 var createUserUrl = function(usersName){
-
 	return baseUrl + usersName + token 
 }
 
