@@ -8,12 +8,6 @@
 
 var name
 
-try {
-	var token = GLOBAL_TOKEN
-}
-catch (e) {
-	var token = ''
-}
 
 // console.log(name)
 
@@ -32,8 +26,14 @@ catch (e) {
 // var repoUrl = "https://api.github.com/users/thuy-n3/repos"
 // https://api.github.com/users=thuy-n3?access_token=b14fb77cc2c0e457cd201b7234ed8382bbb51054
 
-var baseUrl = "https://api.github.com/users/",
+var baseUrl = "https://api.github.com/users/"
+
+try {
 	token = "?access_token=" + global_key
+}
+catch {
+	token = ''
+}
 
 	// usersName = searchValue
 
