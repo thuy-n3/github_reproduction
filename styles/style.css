@@ -1,0 +1,110 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+.align-children > * {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#container{
+	max-width: 100%;
+	margin: auto; 
+	/* border: 3px solid pink; */
+}
+
+#topContainer{
+	/* idth: max-width: 100%;
+	border: 3px solid brown; */
+	background: #bdc3c7;
+	display: block;
+	padding: 2%;
+}
+
+.searchInput{
+	margin: 1%;
+}
+
+#profileContainer {
+	width: 30%;
+	/* border: 3px solid green; */
+	padding-left: 2%;
+	padding-top: 2%;
+}
+
+.profileImg {
+	max-width: 100%;
+	padding-right: 8%;
+}
+	
+#repoContainer {
+	width: 65%;
+	/* border: 3px solid blue; */
+	padding-left: 2%;
+	max-width: 100%;
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+
+.repo {
+	/* border: 2px solid purple; */
+	padding: 2%;
+	
+
+}
+
+.repoRightSide {
+/* 	border: 2px solid red; */
+/* 	text-align: right; */
+	display: inline-flex;
+	width: 150px;
+	float: right;
+	margin-top: -115px;
+	color: #7f8c8d;
+
+}
+
+.repoDetail{
+	color: #7f8c8d;
+}
+
+.updatedAt{
+	color: #7f8c8d;
+}
+
+.inside{
+	display: inline-block;
+	text-align: center;
+	padding: 1%;
+	/* font-size: 18px; */
+}
+
+.inside p{
+	font-size: 28px;
+}
+
+/* .repoRightSide{
+	font-size: 20px;
+} */
+
+.language{
+	padding: 2%;
+}
+.stargazers_count{
+	padding: 2%;
+}
+.forks{
+	padding: 2%;
+}
+
+h2{
+	color: #4078C0;
+}
+
