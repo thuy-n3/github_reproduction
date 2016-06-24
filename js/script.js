@@ -31,7 +31,7 @@ var baseUrl = "https://api.github.com/users/"
 try {
 	token = "?access_token=" + global_key
 }
-catch {
+catch(e) {
 	token = ''
 }
 
